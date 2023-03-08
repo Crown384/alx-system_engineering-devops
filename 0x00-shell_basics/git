@@ -1,0 +1,6 @@
+#!/bin/bash
+read task
+chmod u+x $task
+git add .
+git commit -m "$task"
+git push
