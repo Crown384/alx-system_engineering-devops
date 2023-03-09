@@ -1,0 +1,7 @@
+#!/bin/bash
+read remark
+
+
+echo '#!/bin/bash\n'>$remark
+
+vi $remark
